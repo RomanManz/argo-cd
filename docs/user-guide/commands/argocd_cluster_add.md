@@ -29,6 +29,7 @@ argocd cluster add CONTEXT [flags]
       --label stringArray                  Set metadata labels (e.g. --label key=value)
       --name string                        Overwrite the cluster name
       --namespace stringArray              List of namespaces which are allowed to manage
+      --no-proxy-url                       opt-out of the use of the proxy to connect cluster
       --project string                     project of the cluster
       --proxy-url string                   use proxy to connect cluster
       --service-account string             System namespace service account to use for kubernetes resource management. If not set then default "argocd-manager" SA will be created
